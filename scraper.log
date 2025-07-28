@@ -1,0 +1,79 @@
+2025-07-27 20:37:56,751 - INFO - Starting Portal Inmobiliario scraper
+2025-07-27 20:37:56,751 - INFO - ====== WebDriver manager ======
+2025-07-27 20:38:19,786 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-27 20:38:20,033 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-27 20:38:20,083 - INFO - There is no [mac64] chromedriver "123.0.6312.122" for browser google-chrome "123.0.6312" in cache
+2025-07-27 20:38:20,111 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-27 20:38:20,349 - INFO - WebDriver version 123.0.6312.122 selected
+2025-07-27 20:38:20,352 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.122/mac-x64/chromedriver-mac-x64.zip
+2025-07-27 20:38:20,352 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.122/mac-x64/chromedriver-mac-x64.zip
+2025-07-27 20:38:20,897 - INFO - Driver downloading response is 200
+2025-07-27 20:38:21,961 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-27 20:38:22,168 - INFO - Driver has been saved in cache [/Users/ggoni/.wdm/drivers/chromedriver/mac64/123.0.6312.122]
+2025-07-27 20:38:25,624 - INFO - WebDriver setup completed successfully
+2025-07-27 20:38:25,624 - INFO - Scraping page 1: https://www.portalinmobiliario.com/arriendo/departamento/santiago-metropolitana
+2025-07-27 20:38:38,414 - ERROR - Error scraping page 1: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104f7f0c8 chromedriver + 4595912
+1   chromedriver                        0x0000000104f76e33 chromedriver + 4562483
+2   chromedriver                        0x0000000104b7a39a chromedriver + 381850
+3   chromedriver                        0x0000000104bc3f08 chromedriver + 683784
+4   chromedriver                        0x0000000104bc4191 chromedriver + 684433
+5   chromedriver                        0x0000000104c08b14 chromedriver + 965396
+6   chromedriver                        0x0000000104be616d chromedriver + 823661
+7   chromedriver                        0x0000000104c0614d chromedriver + 954701
+8   chromedriver                        0x0000000104be5ee3 chromedriver + 823011
+9   chromedriver                        0x0000000104bb6be4 chromedriver + 629732
+10  chromedriver                        0x0000000104bb779e chromedriver + 632734
+11  chromedriver                        0x0000000104f44fe2 chromedriver + 4358114
+12  chromedriver                        0x0000000104f49c2d chromedriver + 4377645
+13  chromedriver                        0x0000000104f495a3 chromedriver + 4375971
+14  chromedriver                        0x0000000104f49ed5 chromedriver + 4378325
+15  chromedriver                        0x0000000104f2ea05 chromedriver + 4266501
+16  chromedriver                        0x0000000104f4a25d chromedriver + 4379229
+17  chromedriver                        0x0000000104f21050 chromedriver + 4210768
+18  chromedriver                        0x0000000104f67a98 chromedriver + 4500120
+19  chromedriver                        0x0000000104f67c11 chromedriver + 4500497
+20  chromedriver                        0x0000000104f76a73 chromedriver + 4561523
+21  libsystem_pthread.dylib             0x00007ff80ac1adf1 _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff80ac16857 thread_start + 15
+
+2025-07-27 20:38:40,419 - INFO - No more properties found on page 1, stopping
+2025-07-27 20:38:40,420 - INFO - Total properties scraped: 0
+2025-07-27 20:38:40,498 - INFO - WebDriver closed
+2025-07-27 20:41:13,327 - INFO - Starting Portal Inmobiliario scraper
+2025-07-27 20:41:13,327 - INFO - ====== WebDriver manager ======
+2025-07-27 20:41:13,676 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-27 20:41:14,098 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-27 20:41:14,146 - INFO - Driver [/Users/ggoni/.wdm/drivers/chromedriver/mac64/123.0.6312.122/chromedriver-mac-x64/chromedriver] found in cache
+2025-07-27 20:41:16,730 - INFO - WebDriver setup completed successfully
+2025-07-27 20:41:16,730 - INFO - Scraping page 1: https://www.portalinmobiliario.com/arriendo/departamento/santiago-metropolitana
+2025-07-27 20:41:29,073 - ERROR - Error scraping page 1: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001033f80c8 chromedriver + 4595912
+1   chromedriver                        0x00000001033efe33 chromedriver + 4562483
+2   chromedriver                        0x0000000102ff339a chromedriver + 381850
+3   chromedriver                        0x000000010303cf08 chromedriver + 683784
+4   chromedriver                        0x000000010303d191 chromedriver + 684433
+5   chromedriver                        0x0000000103081b14 chromedriver + 965396
+6   chromedriver                        0x000000010305f16d chromedriver + 823661
+7   chromedriver                        0x000000010307f14d chromedriver + 954701
+8   chromedriver                        0x000000010305eee3 chromedriver + 823011
+9   chromedriver                        0x000000010302fbe4 chromedriver + 629732
+10  chromedriver                        0x000000010303079e chromedriver + 632734
+11  chromedriver                        0x00000001033bdfe2 chromedriver + 4358114
+12  chromedriver                        0x00000001033c2c2d chromedriver + 4377645
+13  chromedriver                        0x00000001033c25a3 chromedriver + 4375971
+14  chromedriver                        0x00000001033c2ed5 chromedriver + 4378325
+15  chromedriver                        0x00000001033a7a05 chromedriver + 4266501
+16  chromedriver                        0x00000001033c325d chromedriver + 4379229
+17  chromedriver                        0x000000010339a050 chromedriver + 4210768
+18  chromedriver                        0x00000001033e0a98 chromedriver + 4500120
+19  chromedriver                        0x00000001033e0c11 chromedriver + 4500497
+20  chromedriver                        0x00000001033efa73 chromedriver + 4561523
+21  libsystem_pthread.dylib             0x00007ff80ac1adf1 _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff80ac16857 thread_start + 15
+
+2025-07-27 20:41:31,079 - INFO - No more properties found on page 1, stopping
+2025-07-27 20:41:31,080 - INFO - Total properties scraped: 0
+2025-07-27 20:41:31,158 - INFO - WebDriver closed
