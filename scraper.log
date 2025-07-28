@@ -77,3 +77,22 @@ Stacktrace:
 2025-07-27 20:41:31,079 - INFO - No more properties found on page 1, stopping
 2025-07-27 20:41:31,080 - INFO - Total properties scraped: 0
 2025-07-27 20:41:31,158 - INFO - WebDriver closed
+2025-07-27 21:28:28,626 - INFO - Starting Portal Inmobiliario scraper (Minimal version)
+2025-07-27 21:28:28,626 - INFO - Starting to scrape up to 3 pages
+2025-07-27 21:28:28,626 - INFO - Scraping page: https://www.portalinmobiliario.com/arriendo/departamento/santiago-metropolitana
+2025-07-27 21:28:29,754 - INFO - Found 48 properties using selector: .ui-search-result__wrapper
+2025-07-27 21:28:29,757 - INFO - Successfully extracted 0 properties from page
+2025-07-27 21:28:29,757 - INFO - Page 1: Found 0 properties
+2025-07-27 21:28:29,757 - INFO - Waiting 3 seconds before next page...
+2025-07-27 21:28:32,764 - INFO - Scraping page: https://www.portalinmobiliario.com/arriendo/departamento/santiago-metropolitana?page=2
+2025-07-27 21:28:33,751 - INFO - Found 48 properties using selector: .ui-search-result__wrapper
+2025-07-27 21:28:33,752 - INFO - Successfully extracted 0 properties from page
+2025-07-27 21:28:33,752 - INFO - Page 2: Found 0 properties
+2025-07-27 21:28:33,752 - INFO - Waiting 3 seconds before next page...
+2025-07-27 21:28:36,753 - INFO - Scraping page: https://www.portalinmobiliario.com/arriendo/departamento/santiago-metropolitana?page=3
+2025-07-27 21:28:37,943 - INFO - Found 48 properties using selector: .ui-search-result__wrapper
+2025-07-27 21:28:37,945 - INFO - Successfully extracted 0 properties from page
+2025-07-27 21:28:37,945 - INFO - Page 3: Found 0 properties
+2025-07-27 21:28:37,945 - INFO - Scraping completed. Total properties found: 0
+2025-07-27 21:28:37,945 - WARNING - No properties to export
+2025-07-27 21:28:37,945 - INFO - Scraping completed successfully!
