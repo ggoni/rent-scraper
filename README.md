@@ -313,6 +313,10 @@ If you encounter issues or have questions:
 2. Review the configuration options in `config.py`
 3. Open an issue on GitHub with detailed information about your problem
 
----
+
+## ⚠️ Pending Features
+
+- [ ] Add a way to filter by property filter borough/sector (apartment, house, etc.)
+
 
 **Happy Scraping! 🏠📊** 
